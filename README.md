@@ -20,14 +20,14 @@ Como a própria Juliana explicou, ela optou pelo MySql por questão de familiari
 
 Estou postando alguns arquivos com as imagens do início do projeto, as telas da Azure e do Mysql Workbench, onde já estava tudo rodando, com a inserção dos dados inclusive, porém a conclusão com a integração do PowerBI foi feita com uma instância PostgreSQL na Azure e acesso via Dbeaver, além das imagens tbm deixei o dump da minha base PostgreSQL versão final.
 
-#O que foi feito via SQL / PostgreSQL;
+# O que foi feito via SQL / PostgreSQL;
 1 - Vinculação do nome do gestor com o Funcionário;
 2 - Vinculação do nome do gestor com o Departamento;
 
 Por ser uma rotina que utilizo em meu dia a dia, optei por criar uma nova coluna e popular ela com um script que gerou um update, conforme print "PostgreSQL-ManagerxEmployee.png" em anexo.
 
 
-#O que foi feito via PowerBI; (arquivo .pbix será disponibilizado em anexo aqui no repositório)
+# O que foi feito via PowerBI; (arquivo .pbix será disponibilizado em anexo aqui no repositório)
 1 - Conversão coluna salary em decimal;
 2 - Não importou nenhuma linha null portanto não houve remoção de linha;
 3 - Criei um gráfico para apresentar o número de horas por projeto;
