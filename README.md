@@ -22,6 +22,7 @@ Estou postando alguns arquivos com as imagens do início do projeto, as telas da
 
 # O que foi feito via SQL / PostgreSQL;
 1 - Vinculação do nome do gestor com o Funcionário;
+
 2 - Vinculação do nome do gestor com o Departamento;
 
 Por ser uma rotina que utilizo em meu dia a dia, optei por criar uma nova coluna e popular ela com um script que gerou um update, conforme print "PostgreSQL-ManagerxEmployee.png" em anexo.
@@ -29,11 +30,17 @@ Por ser uma rotina que utilizo em meu dia a dia, optei por criar uma nova coluna
 
 # O que foi feito via PowerBI; (arquivo .pbix será disponibilizado em anexo aqui no repositório)
 1 - Conversão coluna salary em decimal;
+
 2 - Não importou nenhuma linha null portanto não houve remoção de linha;
+
 3 - Criei um gráfico para apresentar o número de horas por projeto;
+
 4 - Separação da coluna Address em 4 Colunas, Street, Number, City e State; (Divisão de Colunas pelo - a direita e - a esquerda, para não gerar conflito no registro Fire-Oak)
+
 5 - Utilização do recurso Mesclar consultas, para combinar o departamento de cada funcionário;
+
 6 - Utilização do recurso Mesclar colunas, para unificar os campos Fname e Lname em uma única coluna Full Name;
+
 7 - Utilizei Gráfico Árvore Hierárquica para apresentar os Gestores e seus respectivos Funcionários;
 
 8 - Para gerar a lista de Departamento por localização, foi utilizada a função mesclar, caso utilizasse a opção atribuir, como existem o departamento de Research em 3 locais isso geraria duplicidade de registro.
