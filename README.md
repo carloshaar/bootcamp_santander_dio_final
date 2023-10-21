@@ -8,11 +8,11 @@
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
+<p align="center">
+  <img src="2023-10-21 18_01_56-Dashboard_Final.png" alt="Script">
+</p>
 
-## Projeto Final Santander Bootcamp 2023 - Ciência de Dados com Python
-
-## Bootcamp Ciência de Dados com Python - Santander Becas | dio.me
-
+## Projeto Final Santander Bootcamp 2023 - Ciência de Dados com Python | Santander Becas - dio.me
 
 Iniciei o projeto seguindo as ferramentas sugeridas, Azure + Mysql, porém no Power BI não estava conseguindo conectar ao MySql, mesmo instalando o connector.
 
@@ -26,7 +26,9 @@ Estou postando alguns arquivos com as imagens do início do projeto, as telas da
 2 - Vinculação do nome do gestor com o Departamento;
 
 Por ser uma rotina que utilizo em meu dia a dia, optei por criar uma nova coluna e popular ela com um script que gerou um update, conforme print "PostgreSQL-ManagerxEmployee.png" em anexo.
-
+<p align="center">
+  <img src="PostgreSQL-ManagerxEmployee.png" alt="Script">
+</p>
 
 # O que foi feito via PowerBI; (arquivo .pbix será disponibilizado em anexo aqui no repositório)
 1 - Conversão coluna salary em decimal;
@@ -45,6 +47,9 @@ Por ser uma rotina que utilizo em meu dia a dia, optei por criar uma nova coluna
 
 8 - Para gerar a lista de Departamento por localização, foi utilizada a função mesclar, caso utilizasse a opção atribuir, como existem o departamento de Research em 3 locais isso geraria duplicidade de registro.
 
+<p align="center">
+  <img src="Dashboard_Final.png" alt="Dashboard">
+</p>
 
 **Links das minhas redes:**
 * [LinkedIn](https://www.linkedin.com/in/carloshaar/)
